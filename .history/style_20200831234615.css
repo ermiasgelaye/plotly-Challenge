@@ -1,0 +1,177 @@
+/* Top */
+  .jumbotron {
+    margin-top: 10px;
+    min-height: 100px;
+    background-size: cover;
+    background-color: rgb(5, 5, 92);
+    padding-top: 35px;
+    text-align: left;
+    color: white;
+    box-shadow: 0 8px 16px -6px black;
+  }
+
+  .jumbotron>.h1 {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 540;
+    line-height: 1.2;
+  }
+
+  /* Video */
+  video {
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  /* About */
+  .about {
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(80, 80, 80);
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 30px;
+    margin-bottom: 0px;
+  }
+
+  .link {
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(111, 110, 110);
+    font-weight: 600;
+    line-height: 1.7;
+  }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    
+    line-height: 1.42857143;
+    color: #333;
+    
+}
+  
+
+
+  .title {
+    font-family: Arial;
+    color: black;
+    margin-top: 60px;
+  }
+
+  /* About Deshboard */
+  .aboutdeshboard {
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(80, 80, 80);
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+  }
+
+  /* Menu and Demographics */
+  .menustyle {
+    box-shadow: 0 8px 14px -6px rgb(74, 74, 74);
+    padding: 20px;
+    border-radius: 25px;
+    height: 135px;
+  }
+
+  .menutitle {
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .dropdown {
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 28px;
+  }
+
+  .panelstyle {
+    border-color: rgb(206, 206, 206);
+    box-shadow: 0 8px 14px -6px rgb(74, 74, 74);
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 31px;
+  }
+
+  .panel-primary>.panel-heading {
+    height: 85px;
+    background-color: rgb(242, 242, 242);
+    border-bottom-color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .panel-title {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(3, 3, 3);
+    line-height: 1.7;
+  }
+
+  .panel-body {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+    padding-bottom: 0px;
+  }
+
+  /* Charts */
+  .chartbox {
+    box-shadow: 0 8px 14px -6px rgb(74, 74, 74);
+    padding: 20px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+  }
+
+  .gaugebox {
+    background-color: white;
+    box-shadow: 0 8px 14px -6px rgb(74, 74, 74);
+    padding: 10px;
+    padding-top: 34px;
+    padding-bottom: 8px;
+    border-radius: 25px;
+  }
+
+  /* Dashboard */
+  .dashboardrow1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .dashboardrow2 {
+    margin-top: 10px;
+    margin-bottom: 150px;
+  }
+
+  /* Footer */
+  .footerstyle {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background: rgb(240, 240, 240);
+    font-size: 15px;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .footcolor {
+    color: rgb(133, 133, 133);
+  }
