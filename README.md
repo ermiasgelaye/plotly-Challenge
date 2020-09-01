@@ -1,4 +1,4 @@
-# Plot.ly Homework - Belly Button Biodiversity
+# Belly Button Biodiversity - Plot.ly
 
 
 <img src="Images/bacteria.png" width="1300"  height="600"/>
