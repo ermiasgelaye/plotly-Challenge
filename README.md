@@ -28,39 +28,28 @@ A bubble chart was created on the following values
 
 ![Bubble Chart](Images/bubble_chart.png)
 
-4. Display the sample metadata, i.e., an individual's demographic information.
-
-5. Display each key-value pair from the metadata JSON object somewhere on the page.
+## Demographic Information 
+A box is created to display an individual's demographic information from the sample metadata.
 
 ![hw](Images/hw03.png)
 
-6. Update all of the plots any time that a new sample is selected.
+## Gauge Chart
 
-Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
-
-<img src="Images/all.gif" width="1000"  height="500"/>
-
-## Advanced Challenge Assignment (Optional)
-
-The following task is advanced and therefore optional.
-
-* Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the weekly washing frequency of the individual.
-
-* You will need to modify the example gauge code to account for values ranging from 0 through 9.
-
-* Update the chart whenever a new sample is selected.
+A Gauge Chart was created to plot the weekly washing frequency of the individual.
 
 ![Weekly Washing Frequency Gauge](Images/gauge.png)
 
+# Over All layout
+
+The dashboard looks as follows: 
+
+<img src="Images/all.gif" width="1000"  height="500"/>
+
 ## Deployment
 
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo.
+This app is deployed public on GitHub page,click the following link to see how it looks like[Belly Button Biodiversity Dashboard](https://ermiasgelaye.github.io/plotly-Challenge
+).
 
-## Hints
-
-* Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
-
-* Refer to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
 
 ### About the Data
 
@@ -68,4 +57,4 @@ Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly 
 
 - - -
 
-© 2019 Trilogy Education Services
+© 2020 Trilogy Education Services
