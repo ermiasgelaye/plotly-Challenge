@@ -5,37 +5,26 @@
 ## Background
 In this project, an interactive dashboard was built to explore the Belly Button Biodiversity Dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-"The belly button is one of the habitats closest to us, and yet it remains relatively unexplored. In January 2011, we launched Belly Button Biodiversity to investigate the microbes inhabiting our navels and the factors that might influence the microscopic life calling this protected, moist patch of skin home. In addition to inspiring scientific curiosity, Belly Button Biodiversity inspired conversations about the beneficial roles microbes play in our daily lives."
-
-Use the interactive charts below to explore the dataset. Select a test subject ID number in a dropdown menu to see the relative sample results.
+The belly button is one of the habitats closest to us, and yet it remains relatively unexplored. In January 2011, we launched Belly Button Biodiversity to investigate the microbes inhabiting our navels, and the factors that might influence the microscopic life calling this protected, moist patch of skin home. In addition to inspiring scientific curiosity, Belly Button Biodiversity inspired conversations about the beneficial roles microbes play in our daily lives.
 
 Source:The Public Science Lab
 
-## Step 1: Plotly
+Use the interactive charts below to explore the dataset. Select a test subject ID number in a dropdown menu to see the relative sample results.
 
-1. Use the D3 library to read in `samples.json`.
+## Plotly - Bar Chart
 
-2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+In this task `samples.json` file was read by using the D3 library, and a horizontal bar chart with a dropdown menu was created, and displayed on the top 10 OTUs found in that individual. The appropriate values(`sample_values`), lables(`otu_ids`),and hover text(`otu_labels` ) assigned to the bar chart. 
 
-* Use `sample_values` as the values for the bar chart.
+![bar Chart](Images/hw01.png)
 
-* Use `otu_ids` as the labels for the bar chart.
+## Plotly - Bubble Chart
 
-* Use `otu_labels` as the hovertext for the chart.
-
-  ![bar Chart](Images/hw01.png)
-
-3. Create a bubble chart that displays each sample.
-
-* Use `otu_ids` for the x values.
-
-* Use `sample_values` for the y values.
-
-* Use `sample_values` for the marker size.
-
-* Use `otu_ids` for the marker colors.
-
-* Use `otu_labels` for the text values.
+A bubble chart was created on the following values
+- `otu_ids` for the x values.
+- `sample_values` for the y values.
+- `sample_values` for the marker size.
+- `otu_ids` for the marker colors.
+- `otu_labels` for the text values.
 
 ![Bubble Chart](Images/bubble_chart.png)
 
