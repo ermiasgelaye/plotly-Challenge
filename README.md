@@ -47,7 +47,7 @@ The dashboard looks as follows:
 
 ## Deployment
 
-This app is deployed public on GitHub page,click the following link to see how it looks like[Belly Button Biodiversity Dashboard](https://ermiasgelaye.github.io/plotly-Challenge
+This app is deployed public on GitHub page,click the following link to see how it looks like [Belly Button Biodiversity Dashboard](https://ermiasgelaye.github.io/plotly-Challenge
 ).
 
 
